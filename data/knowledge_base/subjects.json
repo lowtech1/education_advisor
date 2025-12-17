@@ -1,0 +1,14 @@
+[
+    {
+        "id": "INT",
+        "name":"Nhap mon lap trinh",
+        "credits":3,
+        "semesters_offered": [1,2,3]
+    },
+    {
+
+    },
+    {
+
+    }
+]

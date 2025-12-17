@@ -1,0 +1,17 @@
+#bỏ qua môi trường ảo
+venv/
+env/
+.env
+
+#bỏ qua git
+.git
+.gitignore
+
+#bỏ qua cache của python
+__pycache__/
+*.pyc
+
+#các file hệ thống khác
+.DS_Store
+
+

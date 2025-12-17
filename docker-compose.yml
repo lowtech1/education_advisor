@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  advisor-app:
+    # Build từ thư mục hiện tại
+    build: . 
+    container_name: education_knowledge_base
+    # Map port: Cổng máy thật (8501) -> Cổng container (8501)
+    ports:
+      - "8501:8501"
+    # Mount volume: Giúp bạn sửa code ở máy thật, container tự cập nhật (Hot reload)
+    # Rất tiện khi đang code đồ án
+    volumes:
+      - ./:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Tự động khởi động lại nếu app bị crash
+    restart: unless-stopped

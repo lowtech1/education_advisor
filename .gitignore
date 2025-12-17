@@ -1,0 +1,23 @@
+#Bỏ qua môi trường ảo
+venv/
+env/
+.env
+
+#Bỏ qua file rác của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+#Bỏ qua dữ liệu hệ thống máy tính
+.DS_Store
+Thumbs.db
+
+#Bỏ qua dữ liệu của IDE
+.vscode/
+.idea/
+
+#Bỏ qua file dữ liệu Excel
+data/raw/*.xlsx
