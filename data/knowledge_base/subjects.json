@@ -3,34 +3,145 @@
     "id": "INT1001",
     "name": "Nhập môn lập trình",
     "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
     "semesters_offered": [
       1,
       2
     ]
   },
   {
-    "id": "INT1002",
+    "id": "MAT1092",
     "name": "Giải tích 1",
     "credits": 4,
+    "theory_credits": 3,
+    "practice_credits": 1,
     "semesters_offered": [
       1
     ]
   },
   {
-    "id": "INT2001",
-    "name": "Cấu trúc dữ liệu",
+    "id": "PHI1002",
+    "name": "Triết học Mác - Lênin",
     "credits": 3,
+    "theory_credits": 3,
+    "practice_credits": 0,
+    "semesters_offered": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "ENG1001",
+    "name": "Tiếng Anh B1",
+    "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
+    "semesters_offered": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "INT2004",
+    "name": "Lập trình hướng đối tượng",
+    "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
+    "semesters_offered": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "MAT1101",
+    "name": "Xác suất thống kê",
+    "credits": 3,
+    "theory_credits": 3,
+    "practice_credits": 0,
+    "semesters_offered": [
+      2
+    ]
+  },
+  {
+    "id": "INT2215",
+    "name": "Cấu trúc dữ liệu & GT",
+    "credits": 4,
+    "theory_credits": 3,
+    "practice_credits": 1,
     "semesters_offered": [
       2,
       3
     ]
   },
   {
-    "id": "INT3005",
-    "name": "Trí tuệ nhân tạo",
+    "id": "INT3301",
+    "name": "Cơ sở dữ liệu",
     "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
     "semesters_offered": [
       1
+    ]
+  },
+  {
+    "id": "INT3401",
+    "name": "Trí tuệ nhân tạo",
+    "credits": 3,
+    "theory_credits": 3,
+    "practice_credits": 0,
+    "semesters_offered": [
+      1
+    ]
+  },
+  {
+    "id": "INT3507",
+    "name": "Công nghệ phần mềm",
+    "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
+    "semesters_offered": [
+      2
+    ]
+  },
+  {
+    "id": "INT4012",
+    "name": "Thị giác máy tính",
+    "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
+    "semesters_offered": [
+      1
+    ]
+  },
+  {
+    "id": "INT4231",
+    "name": "Học máy (Machine Learning)",
+    "credits": 3,
+    "theory_credits": 2,
+    "practice_credits": 1,
+    "semesters_offered": [
+      1
+    ]
+  },
+  {
+    "id": "INT4901",
+    "name": "Thực tập tốt nghiệp",
+    "credits": 2,
+    "theory_credits": 0,
+    "practice_credits": 2,
+    "semesters_offered": [
+      3
+    ]
+  },
+  {
+    "id": "INT4999",
+    "name": "Khóa luận tốt nghiệp",
+    "credits": 10,
+    "theory_credits": 0,
+    "practice_credits": 10,
+    "semesters_offered": [
+      2
     ]
   }
 ]

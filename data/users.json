@@ -1,0 +1,40 @@
+{
+  "SV001": {
+    "name": "Nguyễn Văn A",
+    "major": "Công nghệ Thông tin",
+    "year": 3,
+    "current_semester": 5,
+    "passed_subjects": [
+      "INT1001",
+      "MAT1092",
+      "PHI1002",
+      "ENG1001",
+      "INT2004",
+      "MAT1101",
+      "INT3301"
+    ],
+    "failed_subjects": [
+      "INT2215"
+    ],
+    "planned_subjects": [
+      "INT4012",
+      "INT4901",
+      "INT4999",
+      "INT2215",
+      "INT4231",
+      "INT3401",
+      "INT3507"
+    ]
+  },
+  "SV002": {
+    "name": "Trần Thị B",
+    "major": "Khoa học Máy tính",
+    "year": 1,
+    "current_semester": 2,
+    "passed_subjects": [
+      "INT1001"
+    ],
+    "failed_subjects": [],
+    "planned_subjects": []
+  }
+}
