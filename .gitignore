@@ -19,5 +19,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-#Bỏ qua file dữ liệu Excel
+#Bỏ qua file dữ liệu Excel,doc,ppt(MRS)
 data/raw/*.xlsx
+~$*.doc
+~$*.pptx
+

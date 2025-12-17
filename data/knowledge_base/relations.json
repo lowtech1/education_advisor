@@ -1,0 +1,17 @@
+[
+  {
+    "source": "INT1001",
+    "target": "INT2001",
+    "type": "prerequisite"
+  },
+  {
+    "source": "INT2001",
+    "target": "INT3005",
+    "type": "prerequisite"
+  },
+  {
+    "source": "INT1002",
+    "target": "INT3005",
+    "type": "prerequisite"
+  }
+]

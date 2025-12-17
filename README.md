@@ -7,21 +7,20 @@
 - Xử lý tình huống rớt môn và học cải thiện, học vượt.
 - Giao diện trực quan hóa lộ trình học tập.
 
-## 🛠 Công nghệ sử dụng
+## 2. Công nghệ sử dụng
 - **Ngôn ngữ:** Python 3.9
 - **Giao diện:** Streamlit
 - **Logic:** NetworkX (Graph Theory)
 - **Deployment:** Docker
 
-## 2. Cài đặt và Chạy thử
+## 3. Cài đặt và Chạy thử
 
 ### Cách 1: Chạy bằng Docker (Khuyên dùng)
 ```bash
 docker-compose up --build
 ```
-## 3. Cấu trúc thư mục
+## 4. Cấu trúc thư mục
 ```bash
-''
 education_advisor/
 ├── .streamlit/
 │   └── config.toml          # Cấu hình giao diện Streamlit (theme, layout)
@@ -44,5 +43,4 @@ education_advisor/
 ├── app.py                   # Main file chạy Streamlit
 ├── requirements.txt         # Các thư viện cần thiết
 └── README.md                # Hướng dẫn sử dụng
-''
 ``` 

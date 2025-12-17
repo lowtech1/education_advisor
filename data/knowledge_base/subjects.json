@@ -1,14 +1,36 @@
 [
-    {
-        "id": "INT",
-        "name":"Nhap mon lap trinh",
-        "credits":3,
-        "semesters_offered": [1,2,3]
-    },
-    {
-
-    },
-    {
-
-    }
+  {
+    "id": "INT1001",
+    "name": "Nhập môn lập trình",
+    "credits": 3,
+    "semesters_offered": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "INT1002",
+    "name": "Giải tích 1",
+    "credits": 4,
+    "semesters_offered": [
+      1
+    ]
+  },
+  {
+    "id": "INT2001",
+    "name": "Cấu trúc dữ liệu",
+    "credits": 3,
+    "semesters_offered": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "INT3005",
+    "name": "Trí tuệ nhân tạo",
+    "credits": 3,
+    "semesters_offered": [
+      1
+    ]
+  }
 ]
