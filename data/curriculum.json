@@ -1,0 +1,26 @@
+{
+  "majors": {
+    "CNTT": {
+      "name": "Công nghệ Thông tin",
+      "roadmap": {
+        "1": ["MAT101", "INT101", "ENG101"],
+        "2": ["MAT102", "INT102", "PHY101"],
+        "3": ["INT201", "INT202", "MAT201"],
+        "4": ["INT203", "INT204", "PRJ301"]
+      }
+    }
+  },
+  "subjects": {
+    "MAT101": { "name": "Đại số tuyến tính", "credits": 3, "prereq": [], "difficulty": 4, "category": "Math" },
+    "INT101": { "name": "Nhập môn Lập trình", "credits": 4, "prereq": [], "difficulty": 3, "category": "Core" },
+    "ENG101": { "name": "Tiếng Anh 1", "credits": 3, "prereq": [], "difficulty": 2, "category": "Lang" },
+    "MAT102": { "name": "Giải tích 1", "credits": 3, "prereq": ["MAT101"], "difficulty": 5, "category": "Math" },
+    "INT102": { "name": "Kỹ thuật Lập trình", "credits": 4, "prereq": ["INT101"], "difficulty": 4, "category": "Core" },
+    "PHY101": { "name": "Vật lý đại cương", "credits": 3, "prereq": [], "difficulty": 3, "category": "Gen" },
+    "INT201": { "name": "Cấu trúc dữ liệu & GT", "credits": 4, "prereq": ["INT102", "MAT102"], "difficulty": 5, "category": "Core" },
+    "INT202": { "name": "Cơ sở dữ liệu", "credits": 3, "prereq": ["INT102"], "difficulty": 3, "category": "Core" },
+    "MAT201": { "name": "Toán rời rạc", "credits": 3, "prereq": ["MAT101"], "difficulty": 4, "category": "Math" },
+    "INT203": { "name": "Mạng máy tính", "credits": 3, "prereq": ["INT101"], "difficulty": 3, "category": "Core" },
+    "INT204": { "name": "Hệ điều hành", "credits": 3, "prereq": ["INT201"], "difficulty": 4, "category": "Core" }
+  }
+}
